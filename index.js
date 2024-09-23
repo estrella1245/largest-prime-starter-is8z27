@@ -14,9 +14,9 @@ const n = parseInt(prompt("Enter a number: "));
  * etc. The number 0, fractions, decimals, and negative numbers
  * are not natural numbers.
  */
-let num = 0;
+let num = undefined;
 
-while (n % n == 1 && n % 1 == n)
+if (n % n == 1 && n % 1 == n)
 {
   num = n;
 }
