@@ -18,7 +18,7 @@ let num = undefined;
 
 for (let i = 0; i < n; i++)
 {
-  if (i % i == 1 && i % 1 == i)
+  if (i % 2 != 0 && i % i == 1 && i % 1 == i)
   {
     num = n;
   }
