@@ -16,12 +16,25 @@ const n = parseInt(prompt("Enter a number: "));
  */
 let num = undefined;
 
-for (let i = 0; i <= n; i++)
+for (let i = n; i >= 2; i--)
 {
-  if (i % 2 != 0 && i % i == 1 && i % 1 == i)
+  let prime = true;
+
+  for (let j = 2; j < i; j++)
   {
-    num = n;
+    if (i % j == 0)
+    {
+      prime = false;
+      break;
+    }
   }
+
+  if(prime)
+  {
+    num = i;
+    break;
+  }
+
 }
 
 // DO NOT CHANGE ANYTHING BELOW THIS.
