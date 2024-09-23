@@ -16,7 +16,7 @@ const n = parseInt(prompt("Enter a number: "));
  */
 let num = undefined;
 
-for (let i = 0; i < n; i++)
+for (let i = 0; i <= n; i++)
 {
   if (i % 2 != 0 && i % i == 1 && i % 1 == i)
   {
