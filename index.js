@@ -16,7 +16,7 @@ const n = parseInt(prompt("Enter a number: "));
  */
 let num = undefined;
 
-if (n % n == 1 && n % 1 == n)
+while (n % n == 1 && n % 1 == n)
 {
   num = n;
 }
